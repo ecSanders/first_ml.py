@@ -52,3 +52,5 @@ class Model(nn.Module):
         x = F.relu(self.layer2(x))
         x = F.softmax(self.layer3(x), dim=1)
         return x
+      
+# TODO: Implement model
