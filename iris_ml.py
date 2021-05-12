@@ -20,6 +20,7 @@ chart = (alt.Chart(df)
 )
 chart
 
+# %% Looking more closely
 chart = (alt.Chart(df)
     .encode(
         alt.X('sepal width (cm)'),
